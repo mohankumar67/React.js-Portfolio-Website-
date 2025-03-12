@@ -11,6 +11,7 @@ function Projects (){
                 </li>
                 <li><strong>Rock-Paper-Scissors Game – HTML, CSS & JavaScript:</strong>I created a Rock-Paper-Scissors game using HTML, CSS, and JavaScript. This interactive project allows users to play against the computer, with random choices generated through JavaScript. The game includes real-time score tracking, dynamic UI updates, and basic animations for an engaging user experience. This project helped me strengthen my JavaScript skills, particularly in DOM manipulation, event handling, and logic implementation</li>
             <li><strong> OneStopLearn – A Unified Learning Platform:</strong>I developed OneStopLearn, a website designed to bring various online courses together in one place, making learning more accessible for students. The project includes a homepage showcasing the platform's purpose and a login page for user authentication. I built this using HTML, CSS, Tailwind CSS, and JavaScript, ensuring a clean, responsive, and modern design. This project helped me enhance my front-end development skills, especially in styling with Tailwind CSS and improving user interaction with JavaScript</li>
+             <li><strong>Instagram Clone - React.js:</strong>This is a fully responsive Instagram Clone built using React.js. It includes features like a homepage, login page, stories, post feeds, and a navigation sidebar. Styled with CSS for a clean UI, this project showcases my frontend development skills. 🚀 Check it out</li>
             </ul>
         </section>
     )
