@@ -1,0 +1,150 @@
+body{
+  font-family: 'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+ background: linear-gradient(135deg,#1a1a2e,#16213e);
+  color: white;
+  overflow-x:hidden;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 5%;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+  position: sticky;
+  top: 10px;
+  z-index: 1000;
+  width: 90%;
+  margin: auto;
+}
+
+h1{
+  font-size: 1.8rem;
+  color:#ff6f61;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+nav ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li{
+  margin: 0 15px;
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+nav ul li a:hover{
+  color: #ff6f61;
+  text-shadow: 0 0 10px rgba(255, 111, 97, 0.7);
+}
+
+section {
+  padding: 40px;
+  text-align: center;
+  max-width: 900px;
+  margin: auto;
+}
+
+#about{
+  text-align: center;
+  margin-top:10vh ;
+}
+
+#about h2{
+  font-size: 2.5rem;
+  font-weight: 700;
+  background: linear-gradient(45deg, #ff6f61,#ff9a8b);
+  -webkit-background-clip: text;
+  color: transparent;
+  
+}
+
+#about p{
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin: auto;
+  opacity: 0.9;
+}
+
+#about button{
+  margin-top: 20px;
+  padding: 12px 25px;
+  border-radius: none;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  cursor: pointer;
+  background: linear-gradient(125deg,#ff6f61,#ff9a8b);
+  color: white;
+  transition: 0.3s;
+}
+#about button:hover{
+transform: scale(1.1);
+box-shadow: opx 4px 15px rgba(255, 111, 97, 0.5);
+}
+
+#projects{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+#projects ul{
+  list-style: none;
+  padding:0;
+}
+#projects h2{
+  font-size: 1.5rem;
+  text-align: center;
+}
+#projects li{
+ background: rgba(255, 255, 255, 0.1);
+ backdrop-filter: blur(15px);
+ padding: 20px;
+ width: 300px;
+ margin: 15px;
+ text-align: center;
+ transition: 0.3s;
+ box-shadow: 0px 4px 10px rgba(255, 255, 255, 0.1);
+}
+
+#projects li:hover{
+  transform: scale(1.05);
+  box-shadow: 0px 4px 20px rgba(255, 111, 97, 0.4);
+}
+
+#contact{
+  text-align: center;
+  margin-top: 50px;
+}
+
+
+#contact p{
+font-size: 1.2rem;
+}
+
+
+footer{
+ background: rgba(255, 255, 255, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  backdrop-filter: blur(10px);
+}
+
+
+
