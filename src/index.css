@@ -80,20 +80,24 @@ section {
   opacity: 0.9;
 }
 
-#about button{
-  margin-top: 20px;
+.button {
+  text-decoration: none;
+  display: inline-block;  /* Ensures padding is applied properly */
+  text-align: center;
+  margin-top: 10px;
   padding: 12px 25px;
-  border-radius: none;
   font-size: 1.2rem;
+  border: none;  /* Removes default border */
   border-radius: 30px;
   cursor: pointer;
-  background: linear-gradient(125deg,#ff6f61,#ff9a8b);
+  background: linear-gradient(125deg, #ff6f61, #ff9a8b);
   color: white;
   transition: 0.3s;
 }
-#about button:hover{
-transform: scale(1.1);
-box-shadow: opx 4px 15px rgba(255, 111, 97, 0.5);
+
+.button:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 15px rgba(255, 111, 97, 0.5); /* Fixed typo */
 }
 
 #projects{
